@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <!--
+         <Spinner
+        android:id="@+id/alignset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+    -->
+
+    <Spinner
+        android:id="@+id/langset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:popupBackground="#eeeeee"/>
+
+</LinearLayout>

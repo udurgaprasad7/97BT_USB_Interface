@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <Button
+        android:id="@+id/writeButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="Write Record" >
+    </Button>
+    
+    <Button
+        android:id="@+id/readButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/writeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="Read Record" >
+    </Button>
+    
+    <Button
+        android:id="@+id/numButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/readButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="No.of Records" >
+    </Button>
+    
+    <Button
+        android:id="@+id/formatButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="Format" >
+    </Button>
+    
+   
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/rd_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="RD_STATUS" />
+
+    <!--
+    <ListView
+        android:id="@+id/wifilist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rd_service"
+        android:layout_marginTop="16dp" >
+    </ListView>
+    -->
+
+    <Button
+        android:id="@+id/rd_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scanwifi"
+        android:text="Rd_Service" />
+
+    <Button
+        android:id="@+id/getmacid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tethering_enable" />
+    <Button 
+        android:id="@+id/productid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="product_vendor-ID"/>
+
+    <Button
+        android:id="@+id/getmacofmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get_Mobile_MacID" />
+
+</LinearLayout>

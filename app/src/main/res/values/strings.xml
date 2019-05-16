@@ -1,0 +1,30 @@
+<resources>
+    <!--<string name="app_name">ExampleSync</string>-->
+    <!--    <string name="hello_world">Hello world!</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="serial_port">Synchronous Serial Port</string>
+
+    <string name="app_name">97BT-USBApplication</string>
+
+    <string name="printer">Printer</string>
+    <string name="ifd">IFD</string>
+    <string name="fingerprint">FingerPrint</string>
+    <string name="rfid">RFID</string>
+    <string name="sam">SAM</string>
+    <string name="print_text">Print Text</string>
+    <string name="enter_text">enter text</string>
+    <string name="printbarcode">PrintBarcode</string>
+    <string name="style_name">Choose a style</string>
+    <string name="type_name">Choose an type</string>
+    <string name="size_name">Choose an size</string>
+    <string name="align_name">Choose an align</string>
+    <string name="setfonts_name">SETFONT</string>
+    <string name="enroll">Enroll</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="style_array">
+        <item>Regular</item>
+        <item>Bold</item>
+    </string-array>
+</resources>

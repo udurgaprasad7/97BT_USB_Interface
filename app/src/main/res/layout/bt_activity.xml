@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        android:orientation="vertical" >
+
+
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ff8800" />
+
+        <Button
+            android:id="@+id/btn_printer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:enabled="true"
+            android:text="@string/printer" />
+
+        <Button
+            android:id="@+id/btn_ifd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="@string/ifd" />
+
+        <Button
+            android:id="@+id/btn_fingerprint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/fingerprint" />
+
+        <Button
+            android:id="@+id/btn_rfid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/rfid" />
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="DeviceInfo" />
+
+        <Button
+            android:id="@+id/btn_appload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="AppLoad" />
+
+        <Button
+            android:id="@+id/rd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="RD_Settings" />
+
+        <Button
+            android:id="@+id/otg_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Get_USB_Data" />
+
+        <Button
+            android:id="@+id/btn_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:enabled="false"
+            android:text="SetPin" />
+
+        <Button
+            android:id="@+id/checkupdates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Check_Updates" />
+    -
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="About" />
+
+        <Button
+            android:id="@+id/reboot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Power-off" />
+
+        <Button
+            android:id="@+id/checkbatterystatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Check_Battery_Status" />
+
+        <Button
+            android:id="@+id/config97bt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="97BT_Config" />
+
+        <Button
+            android:id="@+id/rhmsupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="RHMS_Update" />
+
+        <!--
+    <Button
+        android:id="@+id/btn_print_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:enabled="false"
+        android:text="@string/print_text" />
+        -->
+
+
+        <!--
+         <ImageView
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bt_image" />
+        -->
+
+    </LinearLayout>
+
+</ScrollView>

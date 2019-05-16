@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <Button
+        android:id="@+id/enrollButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="Enrollment" >
+    </Button>
+
+    <Button
+        android:id="@+id/fingerBMPImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/verifyButton"
+        android:layout_alignRight="@+id/verifyButton"
+        android:layout_below="@+id/verifyButton"
+        android:text="GetBMPImage" />
+
+    <Button
+        android:id="@+id/fingerRAWImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fingerBMPImage"
+        android:layout_alignRight="@+id/fingerBMPImage"
+        android:layout_below="@+id/fingerBMPImage"
+        android:text="GetRAWImage" />
+
+    <Button
+        android:id="@+id/savedButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enrollButton"
+        android:layout_below="@+id/enrollButton"
+        android:text="Save Template" />
+
+    <Button
+        android:id="@+id/verifyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/savedButton"
+        android:layout_below="@+id/savedButton"
+        android:text="Verification" />
+
+    <!--
+         <Button
+        android:id="@+id/verifyc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enrollc"
+        android:layout_below="@+id/enrollc"
+        android:text="VerifyCall" />
+    -->
+
+    <Button
+        android:id="@+id/enrollc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fingerRAWImage"
+        android:layout_below="@+id/fingerRAWImage"
+        android:layout_marginTop="15dp"
+        android:text="Enroll/Verify" />
+
+    <Button
+        android:id="@+id/licence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enrollc"
+        android:layout_below="@+id/enrollc"
+        android:text="Generate_Licence" />
+
+</RelativeLayout>

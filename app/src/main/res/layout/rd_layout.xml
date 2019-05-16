@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:paddingBottom="450dip" >
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="RD SERVICE 2.0"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/rd_fp_deviceinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="39dp"
+        android:onClick="rd_fp_deviceinfo"
+        android:text="RD_FP_Deviceinfo" />
+
+    <Button
+        android:id="@+id/rd_discovery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rd_fp_deviceinfo"
+        android:onClick="rd_discovery"
+        android:text="RD_Discovery" />
+
+    <Button
+        android:id="@+id/rd_fp_capture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rd_discovery"
+        android:onClick="rd_fp_capture"
+        android:text="RD_FP_Capture" />
+
+    <Button
+        android:id="@+id/Zlog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rd_fp_capture"
+        android:text="Zlog_File" />
+
+    <Button
+        android:id="@+id/deviceids"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Zlog"
+        android:text="Device_Ids" />
+
+    <Button
+        android:id="@+id/rdVersion_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/deviceids"
+        android:text="RDVersion_INFO" />
+
+<Button
+    android:id="@+id/replace_HW"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/rdVersion_info"
+    android:text="Scanner_H-W_Replace" />
+
+</RelativeLayout>

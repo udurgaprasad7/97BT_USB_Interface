@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="enter data to add for printing" >
+    </EditText>
+
+    <Button
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FontStyle" />
+
+    <Button
+        android:id="@+id/add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddData" />
+
+    <Button
+        android:id="@+id/print_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PrintData" />
+
+    <Button
+        android:id="@+id/print_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PrintBill" />
+
+    <Button
+        android:id="@+id/pre_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PreBill" />
+
+</LinearLayout>

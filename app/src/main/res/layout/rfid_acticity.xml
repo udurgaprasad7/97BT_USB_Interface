@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <Button
+        android:id="@+id/rfid_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="RFIDWRITE" />
+
+    <Button
+        android:id="@+id/rfid_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rfid_write"
+        android:layout_alignRight="@+id/rfid_write"
+        android:layout_below="@+id/rfid_write"
+        android:text="RFIDREAD" />
+
+</RelativeLayout>

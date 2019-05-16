@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a97bt_usb_application">
+    <uses-feature android:name="android.hardware.usb.host"
+        android:required="true"/>
+
+
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.a97bt_usb_application.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+
+        <activity android:name="com.visiontek.printer.PrinterMenu"/>
+        <activity android:name="com.visiontek.printer.PrintText"/>
+        <activity android:name="com.visiontek.printer.Barcode"/>
+        <activity android:name="com.visiontek.printer.FontSettings"/>
+        <activity android:name="com.visiontek.printer.Multi_Language_Printing"/>
+        <activity android:name="com.visiontek.printer.MultiFontText_Printing"/>
+        <activity android:name="com.visiontek.printer.Print_MultiFont_Settings"/>
+        <activity android:name="com.visiontek.printer.PrintBill"/>
+        <activity android:name="com.visiontek.printer.PrinterSettings"/>
+        <activity android:name="com.visiontek.printer.Select_Text_Format"/>
+        <activity android:name="com.visiontek.printer.TextFont"/>
+        
+        <activity android:name="com.visiontek.fingerprint.FingerPrintMenu"/>
+        <activity android:name="com.visiontek.fingerprint.MultipleEnrolls"/>
+        
+        <activity android:name="com.visiontek.IFD.IFDMenu"/>
+        <activity android:name="com.visiontek.IFD.IFDOperations"/>
+
+        <activity android:name="com.visiontek.RFID.RFIDActivity"/>
+
+        <activity android:name="com.visiontek.FTP.Power_Off"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"/>
+
+        <activity android:name="com.visiontek.FTP.FTPClientActivity"/>
+
+        <activity android:name=".Rd_Activity"/>
+        <activity android:name=".Rd_Service"/>
+
+
+
+        <service android:name=".UsbService"
+            android:enabled="true"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     android:orientation="vertical"
+        tools:context="com.example.newbtprinter.Printer" >
+
+        <Button
+            android:id="@+id/print_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:text="Print Text" >
+        </Button>
+
+        <Button
+            android:id="@+id/print_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Print Image" />
+
+        <Button
+            android:id="@+id/print_barcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Print Barcode" />
+
+        <Button
+            android:id="@+id/store_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Store Image" />
+
+        <Button
+            android:id="@+id/print_stored_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/storebmpButton"
+            android:layout_alignLeft="@+id/storebmpButton"
+            android:text="Print Stored Image" />
+
+        <Button
+            android:id="@+id/multilanguage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prreset"
+            android:layout_below="@+id/prreset"
+            android:text="MultiLanguage" />
+
+        <Button
+            android:id="@+id/printer_diagnose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/multilanguage"
+            android:layout_below="@+id/multilanguage"
+            android:text="PrinterDiagnose" />
+
+        <Button
+            android:id="@+id/sample_print"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/print_bill"
+            android:layout_below="@+id/print_bill"
+            android:text="SamplePrint" />
+
+        <Button
+            android:id="@+id/print_bill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="PrintBill" />
+
+        <Button
+            android:id="@+id/printer_feed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sample_print"
+            android:layout_below="@+id/sample_print"
+            android:text="PrintFeed" />
+
+        <Button
+            android:id="@+id/Multitext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/printer_feed"
+            android:layout_below="@+id/printer_feed"
+            android:text="MultiText_print" />
+
+        <Button
+            android:id="@+id/printer_reset"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/multilang"
+            android:layout_below="@+id/multilang"
+            android:text="PrinterReset" />
+
+        <Button
+            android:id="@+id/hexmultilang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/printersettings"
+            android:layout_below="@+id/printersettings"
+            android:text="HEX-MultiLanguage" />
+
+        <Button
+            android:id="@+id/printersettings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/savedbmpButton"
+            android:layout_below="@+id/savedbmpButton"
+            android:text="Printer Settings" />
+
+    </LinearLayout>
+
+</ScrollView>

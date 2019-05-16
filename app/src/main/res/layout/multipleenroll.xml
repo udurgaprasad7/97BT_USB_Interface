@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Spinner
+        android:id="@+id/temptypes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Spinner
+        android:id="@+id/imagetypes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/temptypes" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="FP MSG"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/viewbmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagetypes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="VIEW-BMP" 
+        android:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/verifyfingerprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/viewbmp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="53dp"
+        android:text="VerifyFinger" />
+
+    <Button
+        android:id="@+id/enrollbymultiple"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/verifyfingerprint"
+        android:layout_alignBottom="@+id/verifyfingerprint"
+        android:layout_toLeftOf="@+id/viewbmp"
+        android:text="Enroll" />
+
+</RelativeLayout>

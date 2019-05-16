@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <EditText
+        android:id="@+id/entermessage"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:hint="enter text to print barcode" >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entermessage"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/printBarcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="PrintBarcode" >
+
+    </Button>
+
+</RelativeLayout>

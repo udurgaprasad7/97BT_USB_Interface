@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+  >
+
+    <!--
+    <Button
+        android:id="@+id/buildnumButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="Build Number" >
+    </Button>
+    
+    <Button
+        android:id="@+id/firmwareButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buildnumButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="Firmware Version" >
+    </Button>
+    -->
+
+    <Spinner
+        android:id="@+id/operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <Spinner
+        android:id="@+id/cards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/operation"
+        android:layout_below="@+id/operation" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cards"
+        android:layout_below="@+id/cards"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="29dp"
+        android:text="OK" />
+
+</RelativeLayout>
